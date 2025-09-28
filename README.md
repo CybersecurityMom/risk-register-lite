@@ -1,5 +1,4 @@
 
-cat > README.md <<'MD'
 # 📊 Mini Risk Register (GRC)
 
 Tiny Python CLI to log risks, score them (Likelihood × Impact), list, export, and show stats. Zero dependencies; JSON store.
