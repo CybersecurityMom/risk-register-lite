@@ -1,3 +1,4 @@
+cat > risk_register.py <<'PY'
 #!/usr/bin/env python3
 import argparse, json, os, uuid, csv
 from datetime import datetime
@@ -110,3 +111,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+PY
