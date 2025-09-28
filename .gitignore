@@ -1,3 +1,9 @@
+
+---
+
+# 3) `.gitignore`
+
+```gitignore
 __pycache__/
 *.pyc
 risks.json
