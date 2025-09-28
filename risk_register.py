@@ -1,4 +1,5 @@
-#!/usr/bin/env python3
+python3 - <<'PY'
+script = '''#!/usr/bin/env python3
 import argparse, json, os, uuid, csv
 from datetime import datetime
 STORE = "risks.json"
@@ -110,4 +111,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-
+'''
+open('risk_register.py','w',encoding='utf-8').write(script)
+print("Wrote risk_register.py (bytes):", len(script.encode('utf-8')))
+PY
