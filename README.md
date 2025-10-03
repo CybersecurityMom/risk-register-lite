@@ -11,4 +11,3 @@ python3 risk_register.py list
 python3 risk_register.py stats
 python3 risk_register.py update <ID_FROM_LIST> --status mitigating --notes "Applied bucket policy"
 python3 risk_register.py export --output risks_2025Q4.csv
-Levels: Low (≤5), Moderate (≤10), High (≤15), Critical (>15)
